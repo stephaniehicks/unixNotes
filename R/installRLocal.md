@@ -1,7 +1,7 @@
 # Install R and R packages locally
 
 ### Install R locally
-This is a quick summary of the steps needed to install [R](https://cran.r-project.org) locally (either on your own computer or a server).   Here I am installing [R 3.2.3 from CRAN](https://cran.r-project.org/src/base/R-3/R-3.2.3.tar.gz). 
+This is a quick summary of the steps needed to install [R](https://cran.r-project.org) locally (either on your own computer or a server).   Here I am installing [R 3.3.3 from CRAN](https://cran.r-project.org/src/base/R-3/R-3.3.3.tar.gz). 
 
 1. Create new directory called `R` and subdirectory with the version of R that you are installing. Download tar.gz file from CRAN. Unpack and change into directory. 
 
@@ -11,7 +11,7 @@ This is a quick summary of the steps needed to install [R](https://cran.r-projec
 
 >	$ cd src
 
->	$ wget https://cran.r-project.org/src/base/R-3/R-3.3.1.tar.gz
+>	$ wget https://cran.r-project.org/src/base/R-3/R-3.3.3.tar.gz
 
 >	$ tar xzvf R-3.3.1.tar.gz 	
 
@@ -75,6 +75,3 @@ Alternatively, you can use
 * [Installing local R packages on Odyssey](https://rc.fas.harvard.edu/resources/documentation/software/r/)
 * [Installing local R packages from OSU](https://www.osc.edu/documentation/howto/install-local-R-packages)
 * [Building latest R-devel or R-3.3.+ on cluster (07/20/2016)](http://pj.freefaculty.org/blog/?p=315) - If try to install the latest R on linux but it says your zlib, bzip2, etc is out of date, then follow this link. R no longer comes packaged with these libraries, so you must install them yourself. 
-
-
-
